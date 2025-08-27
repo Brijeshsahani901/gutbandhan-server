@@ -118,8 +118,6 @@ export const login = async (req, res) => {
   }
 };
 
-
-
 // 1. Send OTP to email
 export const requestOTP = async (req, res) => {
   const { email } = req.body;
